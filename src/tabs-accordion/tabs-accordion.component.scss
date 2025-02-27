@@ -1,0 +1,49 @@
+/* Customizing the Tabs */
+.nav-tabs .nav-link {
+    color: #fff;
+    background-color: #007bff;
+    /* Blue color for tabs */
+    border: 1px solid transparent;
+    border-radius: 0px;
+    /* Remove rounded corners */
+}
+
+.nav-tabs .nav-link.active {
+    color: #fff;
+    background-color: #0056b3;
+    /* Darker blue for active tab */
+    border-color: #0056b3 #0056b3 #fff;
+}
+
+.nav-tabs .nav-link:hover {
+    background-color: #0056b3;
+    color: #fff;
+}
+
+/* Accordion Header (Black) */
+.accordion-button {
+    background-color: #1c4c7c;
+    color: white;
+    border-radius: 0px;
+    /* Remove rounded corners */
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #1c4c7c;
+}
+
+.accordion-button:hover {
+    background-color: #1c4c7c;
+}
+
+/* Accordion Content */
+.accordion-body {
+    background-color: #f8f9fa;
+    color: #1c4c7c;
+}
+
+.accordion-item {
+    border: 1px solid #1c4c7c;
+    margin-bottom: 15px;
+    /* Add space between accordion items */
+}
